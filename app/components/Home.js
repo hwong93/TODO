@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Home(props){
+  return (
+    <div>
+      <h1> Hello from home </h1>
+    </div>
+  )
+};
+
+module.exports = Home;
