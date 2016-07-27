@@ -30,7 +30,7 @@ var ForecastContainer = React.createClass({
       });
     }.bind(this));
   },
-  handleClick: function(){
+  handleClick: function(weather){
     this.context.router.push({
       pathname:'/details/' + this.props.routeParams.city,
       state: {
